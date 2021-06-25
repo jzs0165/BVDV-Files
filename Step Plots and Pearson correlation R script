@@ -33,5 +33,9 @@ plot(x, y,
      pch = 19, frame = FALSE, col = "blue")
 abline(lm(y ~ x, data = Scatter), col = "black")
 
+res <- cor.test(x, y, 
+                method = "pearson")
+res
+
 
 
