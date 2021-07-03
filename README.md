@@ -9,8 +9,7 @@ Devadatta Gosavi1<sup>1</sup>, Iwona Wower<sup>2</sup>, Irene K. Beckmann<sup>3<
 
 This repository contains additional resources that were used during preparation of the manuscript. These include custom software and data files.
 
-## Software
-### SHAPE_Trimmer
+## Software: SHAPE_Trimmer
 A Python script for trimming sequences bound by primers and concatenation of truncated files. Specifically, this script performs
 - truncation of sequences in .fastq files for target RNA zones 1-3 as required for SHAPE-MaP
 - concatenation of truncatated files into a common file for complete sequence coverage
@@ -26,6 +25,7 @@ The *stk* directory contains Stockholm files of structural multiples sequence nu
 - compare published BVDV IRES RNA structures
 - compute consensus structures
 
+## Citation 
 If you use data provided in this repository in your own work please link back to this site and cite the following publications - Thank you!
 
 - **Insights into the secondary and tertiary structure of the Bovine Viral Diarrhea Virus Internal Ribosome Entry Site**  
