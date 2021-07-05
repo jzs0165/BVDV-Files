@@ -10,7 +10,8 @@ Devadatta Gosavi1<sup>1</sup>, Iwona Wower<sup>2</sup>, Irene K. Beckmann<sup>3<
 This repository contains additional resources that were used during preparation of the manuscript. These include custom software and data files.
 
 ## Software: SHAPE_Trimmer
-A Python script for trimming sequences bound by primers and concatenation of truncated files. Specifically, this script performs
+A Python script for trimming sequences bound by primers and concatenation of truncated files. To run the script properly, it must be executed in the same directory as the FASTQ files to be trimmed.
+Specifically, this script performs
 - truncation of sequences in .fastq files for target RNA zones 1-3 as required for SHAPE-MaP
 - concatenation of truncatated files into a common file for complete sequence coverage
 
