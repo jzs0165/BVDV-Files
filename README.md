@@ -17,7 +17,7 @@ Specifically, this script performs
 
 - define input/infiles files (EDIT AS NEEDED for number of zones)
 - name output filename (EDIT AS NEEDED)
-- hybridization site lengths for respective primers for 3 RNA zones; these correspond to the length of primers; indices match infiles
+- hybridization site lengths for respective primers for BVDV IRES RNA zones; these correspond to the length of primers; indices match infiles
 - trimming and merging
 
 ## Data files
