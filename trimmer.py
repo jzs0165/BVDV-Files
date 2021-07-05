@@ -1,32 +1,25 @@
 # Functions of this script include:
-# 1) truncation of sequences in .fastq files for PAN RNA zones 1-3 as required for SHAPE-MaP
-# 2) merging truncatated files into a common file for complete sequence coverage
+# 1) truncation of sequences in .fastq files for BVDV IRES RNA zones as required for SHAPE-MaP
+# 2) merging truncatated files(R1 and R2) into a common file for complete sequence coverage
 
 # input files (EDIT AS NEEDED)
 
 infiles = [\
-'Z1minusR1.fastq',\
-'Z1minusR2.fastq',\
-'Z2minusR1.fastq',\
-'Z2minusR2.fastq',\
-'Z3minusR1.fastq',\
-'Z3minusR2.fastq']
+'Z1plusR1.fastq',\
+'Z1plusR2.fastq',\
+'Z2plusR1.fastq',\
+'Z2plusR2.fastq']
 
 # output filename (EDIT AS NEEDED)
-outfile = 'PANallminus.fastq'
+outfile = 'BVDVallplus.fastq'
 
 
-# hybridization site lengths for respective primers for 3 PAN zones; these correspond to the length of primers; indices match infiles
+# hybridization site lengths for respective primers for BVDV IRES RNA zones; these correspond to the length of primers; indices match infiles
 PHSLen = [\
 20,\
 20,\
-18,\
-19,\
-31,\
-18]
-
-# for Z3R1 delete 31 nts due to lack of PCR primer being ahead of RT plus RT read wrong for 5 nts
-
+20,\
+19]
 
 # trimming and merging
 for i in range (0,6):
