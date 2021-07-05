@@ -12,13 +12,12 @@ This repository contains additional resources that were used during preparation 
 ## Software: SHAPE_Trimmer
 A Python script for trimming sequences bound by primers and concatenation of truncated files. To run the script properly, it must be executed in the same directory as the FASTQ files to be trimmed.
 Specifically, this script performs
-- truncation of sequences in .fastq files for target RNA zones 1-3 as required for SHAPE-MaP
+- truncation of sequences in .fastq files for target BVDV IRES RNA zones as required for SHAPE-MaP
 - concatenation of truncatated files into a common file for complete sequence coverage
 
 - define input/infiles files (EDIT AS NEEDED for number of zones)
 - name output filename (EDIT AS NEEDED)
 - hybridization site lengths for respective primers for 3 RNA zones; these correspond to the length of primers; indices match infiles
-- for Zone 3 R1 delete 31 nts due to lack of PCR primer being ahead of RT plus RT read wrong for 5 nts
 - trimming and merging
 
 ## Data files
