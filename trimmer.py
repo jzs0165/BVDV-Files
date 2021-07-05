@@ -19,7 +19,7 @@ PHSLen = [\
 20,\
 20,\
 20,\
-19]
+20]
 
 # trimming and merging
 for i in range (0,6):
